@@ -1,0 +1,23 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "",
+    "description": "",
+    "version": "1.0"
+  },
+  "produces": ["application/json"],
+  "host": "localhost:3002",
+  "basePath": "/login",
+  "paths": {
+    "/login": {
+      "post": {
+        "x-swagger-router-controller": "middleware-name1",
+        "operationId": "swagTest",
+        "tags": ["/auth"],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    }
+  }
+}
